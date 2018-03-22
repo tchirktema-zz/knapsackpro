@@ -1,0 +1,98 @@
+body{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333333;
+  background-color: #fff;
+
+}
+
+h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+section{
+  display: block;
+}
+.link{
+  color: #fff;
+}
+
+/****************
+  HEADER
+?**************/
+
+.logo{
+  font-size: 1.8em;
+  color: #fff;
+}
+
+.navbar .pull-right{
+  float: right;
+   margin-right: 2em;
+}
+
+.main-header{
+  background-color: #0074ff;
+  text-align: center;
+  color: #fff;
+}
+
+
+
+/****************
+  HERO SECTION
+?**************/
+.hero-section{
+  position: relative;
+  background-color: #0074ff;
+  background: linear-gradient(#0074ff, #38b0ff);
+  text-align: center;
+  height: 31rem;
+  padding-top: 3em;
+  color: #fff;
+}
+.hero-title{
+  text-align: center;
+}
+.hero-accent{
+  font-size: 1.8em;
+  font-weight: bold;
+  display: block;
+}
+
+
+
+.bg-wave{
+  position:absolute;
+  width:100%;
+  height:8rem;
+  bottom:-1px;
+  left:0;
+  background:url(/dist/img/bg.svg) repeat-x bottom center;
+  background-size:auto 100%
+}
+
+.bg-hero{
+  height: 26rem;
+  max-width: none;
+  background-size: auto 100%;
+  position: relative;
+  background: url(/dist/img/bg1.png) no-repeat center center;
+  margin: 0 auto;
+}
+
+.hero-img{
+  position:relative;height:14rem;
+  background:url(/dist/img/bg1.png) no-repeat center center;
+  background-size:100% auto;
+  margin:0 auto;
+  }
+  @media screen and (min-width: 360px){
+    .hero-img{height:20rem;max-width:500px}
+    }
+  @media screen and (min-width: 768px){
+    .hero-img{height:26rem;max-width:none;background-size:auto 100%}
+    }
+  @media screen and (min-width: 1600px){.hero-img{height:30rem}}
